@@ -1,0 +1,4 @@
+D:\JAEZOO\Jaezoo\Jaezoo.Client\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\JAEZOO\Jaezoo\Jaezoo.Client\obj\Debug\net8.0-windows\App.g.cs
+D:\JAEZOO\Jaezoo\Jaezoo.Client\obj\Debug\net8.0-windows\Jaezoo.Client_MarkupCompile.cache
+D:\JAEZOO\Jaezoo\Jaezoo.Client\obj\Debug\net8.0-windows\Jaezoo.Client_MarkupCompile.lref

@@ -1,0 +1,48 @@
+<Window x:Class="Jaezoo.Client.Views.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Jaezoo — Вход/Регистрация" Height="520" Width="820"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- LOGIN -->
+        <GroupBox Header="Вход" Padding="12">
+            <StackPanel>
+                <TextBlock Text="Логин или E-mail" />
+                <TextBox Text="{Binding LKey, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Text="Пароль" Margin="0,8,0,0" />
+                <PasswordBox x:Name="LPass" PasswordChanged="LPass_PasswordChanged"/>
+                <Button Content="Войти" Margin="0,12,0,0" Command="{Binding LoginCmd}" />
+            </StackPanel>
+        </GroupBox>
+
+        <!-- spacer -->
+        <Border Grid.Column="1"/>
+
+        <!-- REGISTER -->
+        <GroupBox Grid.Column="2" Header="Регистрация" Padding="12">
+            <StackPanel>
+                <TextBlock Text="Ник (необязательно)" />
+                <TextBox Text="{Binding RNickname, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Text="Логин" Margin="0,8,0,0" />
+                <TextBox Text="{Binding RLogin, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Text="E-mail" Margin="0,8,0,0" />
+                <TextBox Text="{Binding REmail, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Text="Пароль" Margin="0,8,0,0" />
+                <PasswordBox x:Name="RPass" PasswordChanged="RPass_PasswordChanged"/>
+                <TextBlock Text="Подтверждение пароля" Margin="0,8,0,0" />
+                <PasswordBox x:Name="RConf" PasswordChanged="RConf_PasswordChanged"/>
+                <Button Content="Зарегистрироваться" Margin="0,12,0,0" Command="{Binding RegisterCmd}" />
+            </StackPanel>
+        </GroupBox>
+
+        <!-- error -->
+        <TextBlock Grid.ColumnSpan="3" Foreground="Tomato" Margin="0,8,0,0" VerticalAlignment="Bottom"
+                   Text="{Binding Error}" TextWrapping="Wrap" />
+    </Grid>
+</Window>
