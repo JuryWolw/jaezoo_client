@@ -4,7 +4,7 @@
   "items": [
     {
       "id": "0.6.0-group-calls-webcam-screen-streaming-update",
-      "title": "JaeZoo v.0.6.0 — Group Calls, Webcum & Screen Streaming Update",
+      "title": "JaeZoo v.0.6.0 — Group Calls, Webcam & Screen Streaming Update",
       "date": "2026-05-14",
       "body": [
         "Добавлены групповые голосовые звонки для групповых чатов и голосовых каналов.",
@@ -44,10 +44,6 @@
         "Подготовлена база для следующего этапа: native video pipeline для более качественной и производительной демонстрации экрана."
       ]
     },
-{
-  "version": "0.5.7",
-  "updatedAtUtc": "2026-04-10T21:00:00Z",
-  "items": [
     {
       "id": "0.5.7-roles-news-ui-update",
       "title": "JaeZoo v.0.5.7 — Roles, News & UI Update",
