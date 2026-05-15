@@ -33,12 +33,8 @@
         "Общий UX клиента стал стабильнее: активный чат держится увереннее, индикаторы статуса и набора текста стали понятнее, а центральные разделы выглядят цельнее."
       ]
     },
-{
-  "version": "0.6.0",
-  "updatedAtUtc": "2026-05-14T00:00:00Z",
-  "items": [
     {
-      "id": "0.6.0-group-calls-webcam-screen-streaming-update",
+      "id": "0.6.0-group-calls-webcum-screen-streaming-update",
       "title": "JaeZoo v.0.6.0 — Group Calls, Webcum & Screen Streaming Update",
       "date": "2026-05-14",
       "body": [
